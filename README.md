@@ -7,7 +7,9 @@ I'm building my skills in **Computational Chemistry** and **Drug Discovery**, wi
 - Python
 - Scientific Python
 - Cheminformatics & RDKit
-- Drug Discovery
+- Drug Discovery Fundamentals
+- QSAR & Molecular Descriptors
+- AI/Machine Learning for Drug Discovery
 - Molecular Modeling
 - Molecular Docking
 - Schrödinger Suite

@@ -1,0 +1,5 @@
+pH = float(input("Enter pH: "))
+if pH <7:
+    print("Acidic")
+else:
+   print("Not acidic")

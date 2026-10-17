@@ -67,7 +67,7 @@ for item in results:
         f"SMILES: {item['SMILES']}")
 
 # 7. Export results to CSV
-output_file = "01-python/similarity_results.csv"
+output_file = "03-Cheminformatics/similarity_results.csv"
 
 with open(output_file, "w", newline="", encoding="utf-8") as file:
     writer = csv.DictWriter(file, fieldnames=results[0].keys())

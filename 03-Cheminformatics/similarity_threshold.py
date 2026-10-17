@@ -22,7 +22,7 @@ print("====== AND THEN =====")
 threshold = 0.5
 top_hits = []
 for result in results_sorted:
-      if result["Similarity"] >= threshold: 
+      if result["Similarity"] >= threshold:
            top_hits.append(result)
 for hit in top_hits:
      print(hit["Name"],"→", hit["Similarity"])

@@ -26,25 +26,25 @@ RDKit is the primary cheminformatics toolkit used throughout this stage.
 
 
 
-\- Represent molecules computationally and understand molecular graphs.
+- Represent molecules computationally and understand molecular graphs.
 
-\- Work with SMILES, canonical SMILES, and basic stereochemistry.
+- Work with SMILES, canonical SMILES, and basic stereochemistry.
 
-\- Create, inspect, validate, and manipulate molecular structures using RDKit.
+- Create, inspect, validate, and manipulate molecular structures using RDKit.
 
-\- Calculate and interpret molecular descriptors.
+- Calculate and interpret molecular descriptors.
 
-\- Generate molecular fingerprints and measure chemical similarity.
+- Generate molecular fingerprints and measure chemical similarity.
 
-\- Perform substructure searches using SMARTS.
+- Perform substructure searches using SMARTS.
 
-\- Clean, validate, standardize, and deduplicate chemical datasets.
+- Clean, validate, standardize, and deduplicate chemical datasets.
 
-\- Explore chemical space and analyze molecular diversity.
+- Explore chemical space and analyze molecular diversity.
 
-\- Prepare reliable molecular datasets for downstream computational and machine-learning workflows.
+- Prepare reliable molecular datasets for downstream computational and machine-learning workflows.
 
-\- Document methods, validate outputs, and interpret results critically.
+- Document methods, validate outputs, and interpret results critically.
 
 
 
@@ -56,15 +56,15 @@ RDKit is the primary cheminformatics toolkit used throughout this stage.
 
 
 
-\- Atoms, bonds, molecular graphs, and connectivity
+- Atoms, bonds, molecular graphs, and connectivity
 
-\- SMILES and canonical SMILES
+- SMILES and canonical SMILES
 
-\- Aromaticity and stereochemistry
+- Aromaticity and stereochemistry
 
-\- Molecular sanitization and validity
+- Molecular sanitization and validity
 
-\- Limitations and ambiguities in molecular representations
+- Limitations and ambiguities in molecular representations
 
 
 
@@ -72,17 +72,17 @@ RDKit is the primary cheminformatics toolkit used throughout this stage.
 
 
 
-\- RDKit installation and imports
+- RDKit installation and imports
 
-\- Creating molecular objects from SMILES
+- Creating molecular objects from SMILES
 
-\- Inspecting atoms, bonds, and molecular properties
+- Inspecting atoms, bonds, and molecular properties
 
-\- Converting and exporting molecular representations
+- Converting and exporting molecular representations
 
-\- Handling invalid structures and failed parsing
+- Handling invalid structures and failed parsing
 
-\- Generating two-dimensional molecular depictions
+- Generating two-dimensional molecular depictions
 
 
 
@@ -90,19 +90,19 @@ RDKit is the primary cheminformatics toolkit used throughout this stage.
 
 
 
-\- Molecular weight and exact molecular mass
+- Molecular weight and exact molecular mass
 
-\- Hydrogen-bond donors and acceptors
+- Hydrogen-bond donors and acceptors
 
-\- Topological polar surface area
+- Topological polar surface area
 
-\- Lipophilicity-related descriptors
+- Lipophilicity-related descriptors
 
-\- Rotatable bonds and ring counts
+- Rotatable bonds and ring counts
 
-\- Descriptor distributions and basic statistical analysis
+- Descriptor distributions and basic statistical analysis
 
-\- Limitations of descriptors and rule-based filters
+- Limitations of descriptors and rule-based filters
 
 
 
@@ -110,17 +110,17 @@ RDKit is the primary cheminformatics toolkit used throughout this stage.
 
 
 
-\- Molecular fingerprint concepts
+- Molecular fingerprint concepts
 
-\- Morgan fingerprints
+- Morgan fingerprints
 
-\- Tanimoto similarity
+- Tanimoto similarity
 
-\- Pairwise similarity and similarity matrices
+- Pairwise similarity and similarity matrices
 
-\- Nearest-neighbor searches
+- Nearest-neighbor searches
 
-\- Chemical similarity versus biological activity
+- Chemical similarity versus biological activity
 
 
 
@@ -128,15 +128,15 @@ RDKit is the primary cheminformatics toolkit used throughout this stage.
 
 
 
-\- SMARTS patterns and query molecules
+- SMARTS patterns and query molecules
 
-\- Substructure matching
+- Substructure matching
 
-\- Functional-group searches
+- Functional-group searches
 
-\- Structural filters for compound collections
+- Structural filters for compound collections
 
-\- Query specificity and limitations
+- Query specificity and limitations
 
 
 
@@ -144,17 +144,17 @@ RDKit is the primary cheminformatics toolkit used throughout this stage.
 
 
 
-\- Reading common chemical data formats
+- Reading common chemical data formats
 
-\- Working with SMILES, compound identifiers, and activity records
+- Working with SMILES, compound identifiers, and activity records
 
-\- Handling missing, invalid, and inconsistent data
+- Handling missing, invalid, and inconsistent data
 
-\- Molecular standardization and duplicate detection
+- Molecular standardization and duplicate detection
 
-\- Preserving original records and documenting transformations
+- Preserving original records and documenting transformations
 
-\- Creating structured, analysis-ready datasets
+- Creating structured, analysis-ready datasets
 
 
 
@@ -162,17 +162,17 @@ RDKit is the primary cheminformatics toolkit used throughout this stage.
 
 
 
-\- Molecular descriptor distributions
+- Molecular descriptor distributions
 
-\- Fingerprint-based similarity analysis
+- Fingerprint-based similarity analysis
 
-\- Molecular clustering
+- Molecular clustering
 
-\- Structural diversity and representative compounds
+- Structural diversity and representative compounds
 
-\- Chemical space visualization
+- Chemical space visualization
 
-\- Interpretation of clustering and representation choices
+- Interpretation of clustering and representation choices
 
 
 
@@ -180,17 +180,17 @@ RDKit is the primary cheminformatics toolkit used throughout this stage.
 
 
 
-\- Constructing molecular feature tables
+- Constructing molecular feature tables
 
-\- Connecting molecular structures with measured properties
+- Connecting molecular structures with measured properties
 
-\- Defining features and target variables
+- Defining features and target variables
 
-\- Detecting duplicate compounds and potential data leakage
+- Detecting duplicate compounds and potential data leakage
 
-\- Preserving identifiers and data provenance
+- Preserving identifiers and data provenance
 
-\- Preparing datasets for future QSAR and machine-learning projects
+- Preparing datasets for future QSAR and machine-learning projects
 
 
 
@@ -236,13 +236,13 @@ Build a workflow that reads SMILES, constructs RDKit molecular objects, validate
 
 **Expected outputs:**
 
-\- Molecular input and validation table
+- Molecular input and validation table
 
-\- Canonical SMILES where available
+- Canonical SMILES where available
 
-\- Clear handling of invalid structures
+- Clear handling of invalid structures
 
-\- Documented examples and limitations
+- Documented examples and limitations
 
 
 
@@ -256,13 +256,13 @@ Calculate selected molecular descriptors for a compound collection and analyze t
 
 **Expected outputs:**
 
-\- Descriptor dataset linked to compound identifiers
+- Descriptor dataset linked to compound identifiers
 
-\- Summary statistics and visualizations
+- Summary statistics and visualizations
 
-\- Interpretation of observed patterns
+- Interpretation of observed patterns
 
-\- Discussion of descriptor limitations
+- Discussion of descriptor limitations
 
 
 
@@ -276,13 +276,13 @@ Generate molecular fingerprints and compare compounds using an appropriate simil
 
 **Expected outputs:**
 
-\- Reproducible fingerprint-generation workflow
+- Reproducible fingerprint-generation workflow
 
-\- Pairwise or query-based similarity results
+- Pairwise or query-based similarity results
 
-\- Ranked similar compounds or a similarity matrix
+- Ranked similar compounds or a similarity matrix
 
-\- Discussion of the meaning and limitations of similarity scores
+- Discussion of the meaning and limitations of similarity scores
 
 
 
@@ -296,13 +296,13 @@ Develop a reusable workflow for searching compound collections using SMARTS quer
 
 **Expected outputs:**
 
-\- Documented SMARTS patterns
+- Documented SMARTS patterns
 
-\- Matching compound identifiers
+- Matching compound identifiers
 
-\- Validation examples
+- Validation examples
 
-\- Discussion of query specificity and limitations
+- Discussion of query specificity and limitations
 
 
 
@@ -316,15 +316,15 @@ Create a reproducible pipeline for cleaning and validating a chemical dataset.
 
 **Expected outputs:**
 
-\- Documented data source and provenance
+- Documented data source and provenance
 
-\- Explicit validation and cleaning rules
+- Explicit validation and cleaning rules
 
-\- Duplicate-detection results
+- Duplicate-detection results
 
-\- Cleaned data with preserved identifiers
+- Cleaned data with preserved identifiers
 
-\- Summary of rejected, removed, or transformed records
+- Summary of rejected, removed, or transformed records
 
 
 
@@ -338,13 +338,13 @@ Investigate the structural diversity of a compound collection using descriptors,
 
 **Expected outputs:**
 
-\- Documented analysis workflow
+- Documented analysis workflow
 
-\- Appropriate visualizations
+- Appropriate visualizations
 
-\- Explanation of selected representations and methods
+- Explanation of selected representations and methods
 
-\- Critical interpretation of results and limitations
+- Critical interpretation of results and limitations
 
 
 
@@ -360,21 +360,21 @@ All projects should follow the scientific principles defined in the repository r
 
 
 
-\- Use reliable data sources and document their provenance.
+- Use reliable data sources and document their provenance.
 
-\- Preserve compound identifiers and relevant source information.
+- Preserve compound identifiers and relevant source information.
 
-\- Document molecular standardization and filtering decisions.
+- Document molecular standardization and filtering decisions.
 
-\- Distinguish invalid structures from valid structures excluded by a defined criterion.
+- Distinguish invalid structures from valid structures excluded by a defined criterion.
 
-\- Make data transformations traceable.
+- Make data transformations traceable.
 
-\- Record software dependencies and relevant parameters.
+- Record software dependencies and relevant parameters.
 
-\- Avoid committing large datasets unless necessary and appropriate.
+- Avoid committing large datasets unless necessary and appropriate.
 
-\- Never treat calculated descriptors or similarity scores as direct evidence of biological activity.
+- Never treat calculated descriptors or similarity scores as direct evidence of biological activity.
 
 
 
@@ -390,15 +390,15 @@ This stage supports several later stages:
 
 
 
-\- **Stage 04 — Drug Discovery Fundamentals:** molecular properties, ligands, bioactivity data, and structure–activity relationships.
+- **Stage 04 — Drug Discovery Fundamentals:** molecular properties, ligands, bioactivity data, and structure–activity relationships.
 
-\- **Stage 05 — Molecular Modeling:** molecular structures and chemical representations used in modeling workflows.
+- **Stage 05 — Molecular Modeling:** molecular structures and chemical representations used in modeling workflows.
 
-\- **Stage 06 — Molecular Docking:** compound inspection, ligand data processing, and analysis of candidate molecules.
+- **Stage 06 — Molecular Docking:** compound inspection, ligand data processing, and analysis of candidate molecules.
 
-\- **Stage 08 — AI/ML for Drug Discovery:** molecular features, fingerprints, curated datasets, and QSAR preparation.
+- **Stage 08 — AI/ML for Drug Discovery:** molecular features, fingerprints, curated datasets, and QSAR preparation.
 
-\- **Stage 09 — Integrated Computational Drug Discovery:** reusable cheminformatics workflows within a broader computational pipeline.
+- **Stage 09 — Integrated Computational Drug Discovery:** reusable cheminformatics workflows within a broader computational pipeline.
 
 
 
@@ -414,23 +414,23 @@ This stage is considered complete when practical work demonstrates the ability t
 
 
 
-\- Create, inspect, and validate molecular structures with RDKit.
+- Create, inspect, and validate molecular structures with RDKit.
 
-\- Explain SMILES, descriptors, fingerprints, and similarity metrics.
+- Explain SMILES, descriptors, fingerprints, and similarity metrics.
 
-\- Perform reproducible descriptor calculations and similarity analysis.
+- Perform reproducible descriptor calculations and similarity analysis.
 
-\- Implement useful substructure searches.
+- Implement useful substructure searches.
 
-\- Curate chemical datasets using documented rules.
+- Curate chemical datasets using documented rules.
 
-\- Analyze molecular diversity and interpret results critically.
+- Analyze molecular diversity and interpret results critically.
 
-\- Produce reusable code and documented project outputs.
+- Produce reusable code and documented project outputs.
 
-\- Prepare a molecular dataset for a clearly defined downstream analysis.
+- Prepare a molecular dataset for a clearly defined downstream analysis.
 
-\- Explain assumptions, limitations, and potential sources of error.
+- Explain assumptions, limitations, and potential sources of error.
 
 
 
@@ -446,19 +446,19 @@ Each substantial project should document:
 
 
 
-1\. **Objective:** The scientific or technical question.
+1. **Objective:** The scientific or technical question.
 
-2\. **Data:** Source, identifiers, provenance, and limitations.
+2. **Data:** Source, identifiers, provenance, and limitations.
 
-3\. **Methods:** Tools, molecular representations, parameters, and processing decisions.
+3. **Methods:** Tools, molecular representations, parameters, and processing decisions.
 
-4\. **Results:** Main outputs and supporting visualizations.
+4. **Results:** Main outputs and supporting visualizations.
 
-5\. **Interpretation:** What the results support and what they cannot establish.
+5. **Interpretation:** What the results support and what they cannot establish.
 
-6\. **Limitations:** Assumptions, possible errors, and unresolved issues.
+6. **Limitations:** Assumptions, possible errors, and unresolved issues.
 
-7\. **Reproducibility:** Dependencies and instructions needed to reproduce the analysis.
+7. **Reproducibility:** Dependencies and instructions needed to reproduce the analysis.
 
 
 

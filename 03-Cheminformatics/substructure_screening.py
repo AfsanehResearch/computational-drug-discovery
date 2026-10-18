@@ -46,14 +46,14 @@ def screen_molecules():
         has_carbonyl = mol.HasSubstructMatch(patterns["carbonyl"])
         has_hydroxyl = mol.HasSubstructMatch(patterns["hydroxyl"])
         has_primary_amine = mol.HasSubstructMatch(
-            patterns["primary_amine"])
+            patterns["primary_amine"]
+        )                             
 
         passed = (
-    has_carbonyl
-    and has_hydroxyl
-    and not has_primary_amine
-)
-
+            has_carbonyl
+            and has_hydroxyl
+            and not has_primary_amine
+        )
         status = "ACCEPTED" if passed else "REJECTED"
 
         print(f"\n{status}: {name} ({smiles})")

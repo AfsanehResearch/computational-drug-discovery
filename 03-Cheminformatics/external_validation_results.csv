@@ -1,0 +1,6 @@
+record_id,name,original_smiles,status,error,canonical_smiles,formula,molecular_weight,exact_mass,heavy_atom_count,duplicate_group_size,duplicate_group_id
+1,Ethanol,CCO,valid,,CCO,C2H6O,46.069,46.0419,3,2,STRUCT_0002
+2,Ethanol_Alternative,OCC,valid,,CCO,C2H6O,46.069,46.0419,3,2,STRUCT_0002
+3,Acetone,CC(=O)C,valid,,CC(C)=O,C3H6O,58.08,58.0419,4,1,STRUCT_0001
+4,Benzene,c1ccccc1,valid,,c1ccccc1,C6H6,78.114,78.047,6,1,STRUCT_0003
+5,Invalid_Ring,C1CC,invalid,RDKit could not parse this SMILES string.,,,,,,,

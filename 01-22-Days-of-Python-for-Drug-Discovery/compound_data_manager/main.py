@@ -1,6 +1,6 @@
 
 from file_handler import read_compounds, save_results
-from compound_utiles import process_compounds
+from compound_utils import process_compounds
 
 
 def main():
